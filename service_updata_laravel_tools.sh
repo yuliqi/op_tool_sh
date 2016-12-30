@@ -7,7 +7,7 @@
 #定义本地git仓库位置
 git_repo="/data/wwwroot/website/"
 #定义项目根目录git 目录中 web 根目录,可为空.
-pro_repo=""
+pro_repo="./"
 #定义日志文件路径
 pro_log="/data/wwwlogs/website_nginx.log"
 
