@@ -135,7 +135,7 @@ git log
 9)
 cd $pro_repo
 #安装依赖
-composer install
+composer update
 ;;
 10)
 #查看日志
