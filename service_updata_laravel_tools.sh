@@ -67,6 +67,8 @@ php artisan down
 php artisan route:cache
 #生成配置缓存
 php artisan config:cache
+#重启队列
+php artisan queue:restart
 #类优化
 php artisan optimize --force
 #删除系统缓存文件
@@ -94,6 +96,8 @@ cd $pro_repo
 php artisan route:cache
 #生成配置缓存
 php artisan config:cache
+#重启队列
+php artisan queue:restart
 #类映射加载优化
 php artisan optimize --force
 #删除系统缓存文件
