@@ -69,6 +69,7 @@ php artisan route:cache
 php artisan config:cache
 #重启队列
 php artisan queue:restart
+supervisorctl reload
 #类优化
 php artisan optimize --force
 #删除系统缓存文件
@@ -98,6 +99,7 @@ php artisan route:cache
 php artisan config:cache
 #重启队列
 php artisan queue:restart
+supervisorctl reload
 #类映射加载优化
 php artisan optimize --force
 #删除系统缓存文件
