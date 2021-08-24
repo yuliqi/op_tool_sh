@@ -3,7 +3,7 @@
 #date   2020-05-10
 LANG=en_US.UTF-8
 
-#本地项目存放路径,需要已’/’结尾
+#本地项目存放路径,需’/’结尾
 path_root="/www/pro1"
 #本地日志路径
 path_log="/www/pro1/logs/default.log"
